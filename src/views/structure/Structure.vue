@@ -1,7 +1,7 @@
 <template>
   <div style="width: 100%; height: 100%">
     <SvgPanZoom
-      style="width: 1270px; height: 700px; "
+      style="width: 1270px; height: 700px"
       :zoomEnabled="true"
       :controlIconsEnabled="true"
       :fit="false"
@@ -15,10 +15,17 @@
         x="0px"
         y="0px"
         viewBox="0 0 3274.2 1609.9"
-    
-        style="display: inline; width: inherit; min-width: inherit; max-width:
-        inherit; height: inherit; min-height: inherit; max-height: inherit; "
-        xml:space="preserve" >
+        style="
+          display: inline;
+          width: inherit;
+          min-width: inherit;
+          max-width: inherit;
+          height: inherit;
+          min-height: inherit;
+          max-height: inherit;
+        "
+        xml:space="preserve"
+      >
         <path
           class="st0"
           d="M307,928.2L298.6,784h24.8v-8.9h-6.3c3.2-2.6,6.3-5.8,9.5-8.9l-6.8-6.3c-4.7,5.3-10,9.5-15.8,13.7l1.1,1.1h-6.3
@@ -592,53 +599,125 @@
 	L2190.6,1451.4z"
         />
         <line class="st7" x1="2162.8" y1="1145.2" x2="2162.8" y2="1365" />
-        <text transform="matrix(1 0 0 1 1071.8296 421.6807)">
-          <tspan x="0" y="0" class="st0 st11 st12">A相电压： 0.00 V</tspan>
-          <tspan x="0" y="36" class="st0 st11 st12">B相电压： 0.00 V</tspan>
-          <tspan x="0" y="72" class="st0 st11 st12">C相电压： 0.00 V</tspan>
-          <tspan x="0" y="108" class="st0 st11 st12">A相电流： 0.00 A</tspan>
-          <tspan x="0" y="144" class="st0 st11 st12">B相电流： 0.00 A</tspan>
-          <tspan x="0" y="180" class="st0 st11 st12">C相电流： 0.00 A</tspan>
-          <tspan x="0" y="216" class="st0 st11 st12">总有功： 0.00 kW</tspan>
-        </text>
-        <text transform="matrix(1 0 0 1 1604.7241 421.141)">
-          <tspan x="0" y="0" class="st0 st11 st12">A相电压： 0.00 V</tspan>
-          <tspan x="0" y="36" class="st0 st11 st12">B相电压： 0.00 V</tspan>
-          <tspan x="0" y="72" class="st0 st11 st12">C相电压： 0.00 V</tspan>
-          <tspan x="0" y="108" class="st0 st11 st12">A相电流： 0.00 A</tspan>
-          <tspan x="0" y="144" class="st0 st11 st12">B相电流： 0.00 A</tspan>
-          <tspan x="0" y="180" class="st0 st11 st12">C相电流： 0.00 A</tspan>
-          <tspan x="0" y="216" class="st0 st11 st12">总有功： 0.00 kW</tspan>
-        </text>
-        <text transform="matrix(1 0 0 1 2036.2338 419.141)">
-          <tspan x="0" y="0" class="st0 st11 st12">A相电压： 0.00 V</tspan>
-          <tspan x="0" y="36" class="st0 st11 st12">B相电压： 0.00 V</tspan>
-          <tspan x="0" y="72" class="st0 st11 st12">C相电压： 0.00 V</tspan>
-          <tspan x="0" y="108" class="st0 st11 st12">A相电流： 0.00 A</tspan>
-          <tspan x="0" y="144" class="st0 st11 st12">B相电流： 0.00 A</tspan>
-          <tspan x="0" y="180" class="st0 st11 st12">C相电流： 0.00 A</tspan>
-          <tspan x="0" y="216" class="st0 st11 st12">总有功： 0.00 kW</tspan>
-        </text>
-        <text transform="matrix(1 0 0 1 2890.5991 420.0103)">
-          <tspan x="0" y="0" class="st0 st11 st12">A相电压： 0.00 V</tspan>
-          <tspan x="0" y="36" class="st0 st11 st12">B相电压： 0.00 V</tspan>
-          <tspan x="0" y="72" class="st0 st11 st12">C相电压： 0.00 V</tspan>
-          <tspan x="0" y="108" class="st0 st11 st12">A相电流： 0.00 A</tspan>
-          <tspan x="0" y="144" class="st0 st11 st12">B相电流： 0.00 A</tspan>
-          <tspan x="0" y="180" class="st0 st11 st12">C相电流： 0.00 A</tspan>
-          <tspan x="0" y="216" class="st0 st11 st12">总有功： 0.00 kW</tspan>
-        </text>
-
-        <text class="u0" transform="matrix(1 0 0 1 577.3149 634.5449)">
-          <tspan id="u0a1" x="0" y="0" class="st0 st11 st12">
+        <!-- 光伏模拟器 -->
+        <text class="pvs" transform="matrix(1 0 0 1 1071.8296 421.6807)">
+          <tspan id="pvsau" x="0" y="0" class="st0 st11 st12">
             A相电压： 0.00 V
           </tspan>
-          <tspan x="0" y="36" class="st0 st11 st12">B相电压： 0.00 V</tspan>
-          <tspan x="0" y="72" class="st0 st11 st12">C相电压： 0.00 V</tspan>
-          <tspan x="0" y="108" class="st0 st11 st12">A相电流： 0.00 A</tspan>
-          <tspan x="0" y="144" class="st0 st11 st12">B相电流： 0.00 A</tspan>
-          <tspan x="0" y="180" class="st0 st11 st12">C相电流： 0.00 A</tspan>
-          <tspan x="0" y="216" class="st0 st11 st12">总有功： 0.00 kW</tspan>
+          <tspan id="pvsbu" x="0" y="36" class="st0 st11 st12">
+            B相电压： 0.00 V
+          </tspan>
+          <tspan id="pvscu" x="0" y="72" class="st0 st11 st12">
+            C相电压： 0.00 V
+          </tspan>
+          <tspan id="pvsai" x="0" y="108" class="st0 st11 st12">
+            A相电流： 0.00 A
+          </tspan>
+          <tspan id="pvsbi" x="0" y="144" class="st0 st11 st12">
+            B相电流： 0.00 A
+          </tspan>
+          <tspan id="pvsci" x="0" y="180" class="st0 st11 st12">
+            C相电流： 0.00 A
+          </tspan>
+          <tspan id="pvsp" x="0" y="216" class="st0 st11 st12">
+            总有功： 0.00 kW
+          </tspan>
+        </text>
+        <!-- 储能锂电池 -->
+        <text class="bty" transform="matrix(1 0 0 1 1604.7241 421.141)">
+          <tspan id="btyau" x="0" y="0" class="st0 st11 st12">
+            A相电压： 0.00 V
+          </tspan>
+          <tspan id="btybu" x="0" y="36" class="st0 st11 st12">
+            B相电压： 0.00 V
+          </tspan>
+          <tspan id="btycu" x="0" y="72" class="st0 st11 st12">
+            C相电压： 0.00 V
+          </tspan>
+          <tspan id="btyai" x="0" y="108" class="st0 st11 st12">
+            A相电流： 0.00 A
+          </tspan>
+          <tspan id="btybi" x="0" y="144" class="st0 st11 st12">
+            B相电流： 0.00 A
+          </tspan>
+          <tspan id="btyci" x="0" y="180" class="st0 st11 st12">
+            C相电流： 0.00 A
+          </tspan>
+          <tspan id="btyp" x="0" y="216" class="st0 st11 st12">
+            总有功： 0.00 kW
+          </tspan>
+        </text>
+        <!-- 双馈风机模拟器 -->
+        <text class="wp" transform="matrix(1 0 0 1 2036.2338 419.141)">
+          <tspan id="wpau" x="0" y="0" class="st0 st11 st12">
+            A相电压： 0.00 V
+          </tspan>
+          <tspan id="wpbu" x="0" y="36" class="st0 st11 st12">
+            B相电压： 0.00 V
+          </tspan>
+          <tspan id="wpcu" x="0" y="72" class="st0 st11 st12">
+            C相电压： 0.00 V
+          </tspan>
+          <tspan id="wpai" x="0" y="108" class="st0 st11 st12">
+            A相电流： 0.00 A
+          </tspan>
+          <tspan id="wpbi" x="0" y="144" class="st0 st11 st12">
+            B相电流： 0.00 A
+          </tspan>
+          <tspan id="wpci" x="0" y="180" class="st0 st11 st12">
+            C相电流： 0.00 A
+          </tspan>
+          <tspan id="wpp" x="0" y="216" class="st0 st11 st12">
+            总有功： 0.00 kW
+          </tspan>
+        </text>
+        <!-- 光伏发电 -->
+        <text class="pv" transform="matrix(1 0 0 1 2890.5991 420.0103)">
+          <tspan id="pvau" x="0" y="0" class="st0 st11 st12">
+            A相电压： 0.00 V
+          </tspan>
+          <tspan id="pvbu" x="0" y="36" class="st0 st11 st12">
+            B相电压： 0.00 V
+          </tspan>
+          <tspan id="pvcu" x="0" y="72" class="st0 st11 st12">
+            C相电压： 0.00 V
+          </tspan>
+          <tspan id="pvai" x="0" y="108" class="st0 st11 st12">
+            A相电流： 0.00 A
+          </tspan>
+          <tspan id="pvbi" x="0" y="144" class="st0 st11 st12">
+            B相电流： 0.00 A
+          </tspan>
+          <tspan id="pvci" x="0" y="180" class="st0 st11 st12">
+            C相电流： 0.00 A
+          </tspan>
+          <tspan id="pvp" x="0" y="216" class="st0 st11 st12">
+            总有功： 0.00 kW
+          </tspan>
+        </text>
+        <!-- 总 -->
+        <text class="all" transform="matrix(1 0 0 1 577.3149 634.5449)">
+          <tspan id="allau" x="0" y="0" class="st0 st11 st12">
+            A相电压： 0.00 V
+          </tspan>
+          <tspan id="allbu" x="0" y="36" class="st0 st11 st12">
+            B相电压： 0.00 V
+          </tspan>
+          <tspan id="allcu" x="0" y="72" class="st0 st11 st12">
+            C相电压： 0.00 V
+          </tspan>
+          <tspan id="allai" x="0" y="108" class="st0 st11 st12">
+            A相电流： 0.00 A
+          </tspan>
+          <tspan id="allbi" x="0" y="144" class="st0 st11 st12">
+            B相电流： 0.00 A
+          </tspan>
+          <tspan id="allci" x="0" y="180" class="st0 st11 st12">
+            C相电流： 0.00 A
+          </tspan>
+          <tspan id="allp" x="0" y="216" class="st0 st11 st12">
+            总有功： 0.00 kW
+          </tspan>
         </text>
 
         <rect x="1483.8" y="674.3" class="st4" width="29.1" height="52.5" />
@@ -655,37 +734,68 @@ export default {
   components: { SvgPanZoom },
   data() {
     return {
-      flag: true,
+      list: [],
+      id: [],
+      value: [],
+      timer:''
     };
   },
   created() {
     //1.请求多个数据
-    this.getHomeMultidata();
-    this.getSvg();
+    this.getHomeMultidata()
+    this.timer=setInterval(
+      this.getHomeMultidata,1000
+    );
+    
+    // console.log(valueData);
+    // this.getSvg();
   },
-  mounted() {},
+  mounted() {
+    // console.log(this.list);
+  },
+  updated() {
+    // console.log(this.list);
+  },
   methods: {
-    // 初始化svg
-    getSvg() {
-      let u0a1 = document.getElementById("u0a1");
-      setInterval(function () {
-        this.u0a1.textContent = "A相电压：" + "223.00 V";
-        // }
-      }, 1000);
+    // 业务函数---------------------------------------------
+    setDate() {
+      // (list) => {
+      let allau = document.getElementById("allau");
+      let allbu = document.getElementById("allbu");
+      let allcu = document.getElementById("allcu");
+      let allai = document.getElementById("allai");
+      let allbi = document.getElementById("allbi");
+      let allci = document.getElementById("allci");
+      console.log(this.list);
+      for (let i = 0; i < this.list.length; i++) {
+        this.id.push(this.list[i].id);
+        this.value.push(this.list[i].value);
+      }
+      console.log(this.id);
+      console.log(this.value[0]);
+      allau.textContent = "A相电压：" + this.value[0] + "V";
+      allbu.textContent = "B相电压：" + this.value[1] + "V";
+      allcu.textContent = "C相电压：" + this.value[2] + "V";
+      allai.textContent = "A相电流：  " + this.value[3] + "V";
+      allbi.textContent = "B相电流：  " + this.value[4] + "V";
+      allci.textContent = "C相电流：  " + this.value[5] + "V";
     },
 
-    /**
-     * 网络请求相关方法
-     */
+    // 网络请求---------------------------------------
+
     getHomeMultidata() {
-      console.log("11");
       getHomedata().then((res) => {
-        console.log(res);
-        // this.id = res.data.banner.list;
-        // this.value = res.data.recommend.list;
+        // console.log(res);
+        this.list = res.energy.list;
+        // console.log(this.list);
+        this.setDate();
       });
     },
   },
+  beforeDestory(){
+    // 关闭窗口清除定时器
+    clearInterval(this.timer)
+  }
 };
 </script>
 

@@ -42,27 +42,90 @@
 	C238.1,807.2,213.9,811.9,190.2,810.8z"
         />
         <line class="st1" x1="306.4" y1="891.1" x2="3162.6" y2="891.1" />
-        <rect x="385.2" y="882.6" class="st2" width="47.5" height="23" />
-        <rect x="489.2" y="882.6" class="st2" width="47.5" height="23" />
-        <rect x="695.3" y="883.6" class="st2" width="47.5" height="23" />
+        <rect
+          id="QF1"
+          x="385.2"
+          y="882.6"
+          class="st2"
+          width="47.5"
+          height="23"
+        />
+        <rect
+          id="QF25"
+          x="489.2"
+          y="882.6"
+          class="st2"
+          width="47.5"
+          height="23"
+        />
+        <rect
+          id="KM1"
+          x="695.3"
+          y="883.6"
+          class="st2"
+          width="47.5"
+          height="23"
+        />
         <line class="st3" x1="617.9" y1="894" x2="617.9" y2="1149.6" />
-        <rect x="603.3" y="982.4" class="st4" width="29.1" height="52.5" />
+        <rect
+          id="QF26"
+          x="603.3"
+          y="982.4"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
         <line class="st1" x1="811.7" y1="815.5" x2="811.7" y2="886.9" />
         <line class="st1" x1="807.9" y1="816.9" x2="3162.6" y2="816.9" />
-        <rect x="847.3" y="803.2" class="st2" width="47.5" height="23" />
+        <rect
+          id="QF2"
+          x="847.3"
+          y="803.2"
+          class="st2"
+          width="47.5"
+          height="23"
+        />
         <line class="st5" x1="968.7" y1="532.3" x2="968.7" y2="811.6" />
         <line class="st3" x1="1498.8" y1="514.6" x2="1497.9" y2="814.6" />
         <line class="st3" x1="1992.8" y1="314.1" x2="1992.8" y2="813.2" />
         <line class="st3" x1="2457.4" y1="479.4" x2="2457.4" y2="815.5" />
         <line class="st3" x1="1106.9" y1="892.9" x2="1106.9" y2="1180.7" />
-        <rect x="1093.7" y="981.2" class="st4" width="29.1" height="52.5" />
+        <rect
+          id="QF27"
+          x="1093.7"
+          y="981.2"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
         <line class="st6" x1="896.5" y1="1282.8" x2="896.5" y2="1422.1" />
-        <rect x="1091.9" y="1091.4" class="st4" width="29.1" height="52.5" />
+        <rect
+          id="KM5"
+          x="1091.9"
+          y="1091.4"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
         <line class="st3" x1="2747" y1="894.5" x2="2747" y2="986.5" />
         <line class="st3" x1="2163.1" y1="891.1" x2="2163.1" y2="987.9" />
         <line class="st3" x1="1736.3" y1="891.2" x2="1736.3" y2="983.2" />
-        <rect x="1722.8" y="1091.1" class="st4" width="29.1" height="52.5" />
-        <rect x="1721.8" y="982" class="st4" width="29.1" height="52.5" />
+        <rect
+          id="KM3"
+          x="1722.8"
+          y="1091.1"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
+        <rect
+          id="QF28"
+          x="1721.8"
+          y="982"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
         <line class="st7" x1="1736.4" y1="1036" x2="1736.4" y2="1055.2" />
         <circle class="st8" cx="1736.4" cy="1058.8" r="3.7" />
         <line class="st7" x1="1736.4" y1="1063" x2="1736.4" y2="1222.4" />
@@ -183,9 +246,30 @@
         />
         <line class="st6" x1="894.1" y1="1280.5" x2="1309.5" y2="1280.5" />
         <line class="st6" x1="1307.1" y1="1279.7" x2="1307.1" y2="1456" />
-        <rect x="881.9" y="1297.9" class="st4" width="29.1" height="52.5" />
-        <rect x="1093.6" y="1297.9" class="st4" width="29.1" height="52.5" />
-        <rect x="1292.7" y="1297.9" class="st4" width="29.1" height="52.5" />
+        <rect
+          id="QF31"
+          x="881.9"
+          y="1297.9"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
+        <rect
+          id="QF32"
+          x="1093.6"
+          y="1297.9"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
+        <rect
+          id="QF33"
+          x="1292.7"
+          y="1297.9"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
         <path
           class="st0"
           d="M938,1422.1h-9.6v-7.3h-19.1v7.3h-28.6v-7.3h-19.1v7.3h-9.6c-7.9,0-14.3,5-14.3,11l0,0v43.9
@@ -194,8 +278,22 @@
 	 M904.7,1454h28.6v4.7h-28.6V1454z M874.2,1446.6h-6.1v7.3h-9.6v4.7h9.6v7.3h6.1v-7.3h9.6v-4.7h-9.6V1446.6z"
         />
         <line class="st7" x1="2163.4" y1="1028.4" x2="2163.4" y2="1089.6" />
-        <rect x="2148.3" y="1091.1" class="st4" width="29.1" height="52.5" />
-        <rect x="2732.7" y="1091.3" class="st4" width="29.1" height="52.5" />
+        <rect
+          id="KM4"
+          x="2148.3"
+          y="1091.1"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
+        <rect
+          id="KM2"
+          x="2732.7"
+          y="1091.3"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
         <line class="st3" x1="2783" y1="521.5" x2="2779.5" y2="814" />
         <path
           class="st0"
@@ -571,15 +669,57 @@
           class="st19"
           points="344.6,1224.9 270.1,1224.9 270.1,1224.9 "
         />
-        <rect x="2766.7" y="674.5" class="st20" width="29.1" height="52.5" />
-        <rect x="2442.9" y="674.7" class="st4" width="29.1" height="52.5" />
-        <rect x="1978.2" y="676.1" class="st4" width="29.1" height="52.5" />
-        <rect x="954.7" y="674.6" class="st4" width="29.1" height="52.5" />
+        <rect
+          id="QF7"
+          x="2766.7"
+          y="674.5"
+          class="st20"
+          width="29.1"
+          height="52.5"
+        />
+        <rect
+          id="QF6"
+          x="2442.9"
+          y="674.7"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
+        <rect
+          id="QF5"
+          x="1978.2"
+          y="676.1"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
+        <rect
+          id="QF3"
+          x="954.7"
+          y="674.6"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
         <circle class="st21" cx="1106.5" cy="1065.4" r="3.7" />
         <line class="st7" x1="2745.9" y1="1026.7" x2="2745.9" y2="1197" />
-        <rect x="2732.4" y="982.7" class="st4" width="29.1" height="52.5" />
+        <rect
+          id="QF30"
+          x="2732.4"
+          y="982.7"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
         <circle class="st22" cx="2747.3" cy="1052.1" r="3.7" />
-        <rect x="2148.9" y="982.4" class="st4" width="29.1" height="52.5" />
+        <rect
+          id="QF29"
+          x="2148.9"
+          y="982.4"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
         <circle class="st22" cx="1307.1" cy="1382.7" r="3.7" />
         <circle class="st22" cx="1106.9" cy="1364.6" r="3.7" />
         <circle class="st22" cx="896.5" cy="1376.5" r="3.7" />
@@ -599,7 +739,7 @@
 	L2190.6,1451.4z"
         />
         <line class="st7" x1="2162.8" y1="1145.2" x2="2162.8" y2="1365" />
-        <!-- 光伏模拟器 -->
+        <!-- 光伏模拟器 pvs-->
         <text class="pvs" transform="matrix(1 0 0 1 1071.8296 421.6807)">
           <tspan id="pvsau" x="0" y="0" class="st0 st11 st12">
             A相电压： 0.00 V
@@ -623,7 +763,7 @@
             总有功： 0.00 kW
           </tspan>
         </text>
-        <!-- 储能锂电池 -->
+        <!-- 储能锂电池 bty-->
         <text class="bty" transform="matrix(1 0 0 1 1604.7241 421.141)">
           <tspan id="btyau" x="0" y="0" class="st0 st11 st12">
             A相电压： 0.00 V
@@ -647,7 +787,7 @@
             总有功： 0.00 kW
           </tspan>
         </text>
-        <!-- 双馈风机模拟器 -->
+        <!-- 双馈风机模拟器 wp-->
         <text class="wp" transform="matrix(1 0 0 1 2036.2338 419.141)">
           <tspan id="wpau" x="0" y="0" class="st0 st11 st12">
             A相电压： 0.00 V
@@ -720,7 +860,14 @@
           </tspan>
         </text>
 
-        <rect x="1483.8" y="674.3" class="st4" width="29.1" height="52.5" />
+        <rect
+          id="QF4"
+          x="1483.8"
+          y="674.3"
+          class="st4"
+          width="29.1"
+          height="52.5"
+        />
       </svg>
     </SvgPanZoom>
   </div>
@@ -728,27 +875,23 @@
 
 <script>
 import SvgPanZoom from "vue-svg-pan-zoom";
-import { getHomedata } from "../../network/home";
+import { getHomedata, Powers } from "../../network/home";
 export default {
   name: "Structure",
   components: { SvgPanZoom },
   data() {
     return {
-      list: [],
+      paramInfo: {},
       id: [],
       value: [],
-      timer:''
+      timer: "",
     };
   },
   created() {
     //1.请求多个数据
-    this.getHomeMultidata()
-    this.timer=setInterval(
-      this.getHomeMultidata,1000
-    );
-    
-    // console.log(valueData);
-    // this.getSvg();
+    this.getHomeMultidata();
+    //定时请求
+    this.timer = setInterval(this.getHomeMultidata, 1000);
   },
   mounted() {
     // console.log(this.list);
@@ -757,45 +900,251 @@ export default {
     // console.log(this.list);
   },
   methods: {
-    // 业务函数---------------------------------------------
-    setDate() {
-      // (list) => {
+    // 设置数据函数---------------------------------------------
+    // 动态修改光伏模拟器数据
+    setPvsDate() {
+      console.log(this.paramInfo.pvs);
+      this.value = [];
+      this.id = [];
+      for (let i = 0; i < this.paramInfo.pvs.length; i++) {
+        this.id.push(this.paramInfo.pvs[i].id);
+        this.value.push(this.paramInfo.pvs[i].value);
+      }
+      console.log(this.id);
+      console.log(this.value[0]);
+      // 光伏模拟器 pvs allp
+      let pvsau = document.getElementById("pvsau");
+      let pvsbu = document.getElementById("pvsbu");
+      let pvscu = document.getElementById("pvscu");
+      let pvsai = document.getElementById("pvsai");
+      let pvsbi = document.getElementById("pvsbi");
+      let pvsci = document.getElementById("pvsci");
+      let pvsp = document.getElementById("pvsp");
+      pvsau.textContent = "A相电压：" + this.value[0] + "V";
+      pvsbu.textContent = "B相电压：" + this.value[1] + "V";
+      pvscu.textContent = "C相电压：" + this.value[2] + "V";
+      pvsai.textContent = "A相电流：  " + this.value[3] + "A";
+      pvsbi.textContent = "B相电流：  " + this.value[4] + "A";
+      pvsci.textContent = "C相电流：  " + this.value[5] + "A";
+      pvsp.textContent = "总有功： " + this.value[6] + "kW";
+    },
+    // 动态修改储能锂电池数据
+    setBtyDate() {
+      console.log(this.paramInfo.bty);
+      this.value = [];
+      this.id = [];
+      for (let i = 0; i < this.paramInfo.bty.length; i++) {
+        this.id.push(this.paramInfo.bty[i].id);
+        this.value.push(this.paramInfo.bty[i].value);
+      }
+      console.log(this.id);
+      console.log(this.value[0]);
+      // 储能锂电池 bty
+      let btyau = document.getElementById("btyau");
+      let btybu = document.getElementById("btybu");
+      let btycu = document.getElementById("btycu");
+      let btyai = document.getElementById("btyai");
+      let btybi = document.getElementById("btybi");
+      let btyci = document.getElementById("btyci");
+      let btyp = document.getElementById("btyp");
+      btyau.textContent = "A相电压：" + this.value[0] + "V";
+      btybu.textContent = "B相电压：" + this.value[1] + "V";
+      btycu.textContent = "C相电压：" + this.value[2] + "V";
+      btyai.textContent = "A相电流：  " + this.value[3] + "A";
+      btybi.textContent = "B相电流：  " + this.value[4] + "A";
+      btyci.textContent = "C相电流：  " + this.value[5] + "A";
+      btyp.textContent = "总有功： " + this.value[6] + "kW";
+    },
+    // 动态修改双馈风机模拟器数据
+    setWpDate() {
+      console.log(this.paramInfo.wp);
+      this.value = [];
+      this.id = [];
+      for (let i = 0; i < this.paramInfo.wp.length; i++) {
+        this.id.push(this.paramInfo.wp[i].id);
+        this.value.push(this.paramInfo.wp[i].value);
+      }
+      console.log(this.id);
+      console.log(this.value[0]);
+      // 双馈风机模拟器 wp
+      let wpau = document.getElementById("wpau");
+      let wpbu = document.getElementById("wpbu");
+      let wpcu = document.getElementById("wpcu");
+      let wpai = document.getElementById("wpai");
+      let wpbi = document.getElementById("wpbi");
+      let wpci = document.getElementById("wpci");
+      let wpp = document.getElementById("wpp");
+      wpau.textContent = "A相电压：" + this.value[0] + "V";
+      wpbu.textContent = "B相电压：" + this.value[1] + "V";
+      wpcu.textContent = "C相电压：" + this.value[2] + "V";
+      wpai.textContent = "A相电流：  " + this.value[3] + "A";
+      wpbi.textContent = "B相电流：  " + this.value[4] + "A";
+      wpci.textContent = "C相电流：  " + this.value[5] + "A";
+      wpp.textContent = "总有功： " + this.value[6] + "kW";
+    },
+    // 动态修改光伏发电数据
+    setPvDate() {
+      console.log(this.paramInfo.pv);
+      this.value = [];
+      this.id = [];
+      for (let i = 0; i < this.paramInfo.pv.length; i++) {
+        this.id.push(this.paramInfo.pv[i].id);
+        this.value.push(this.paramInfo.pv[i].value);
+      }
+      console.log(this.id);
+      console.log(this.value[0]);
+      // 光伏发电 pv
+      let pvau = document.getElementById("pvau");
+      let pvbu = document.getElementById("pvbu");
+      let pvcu = document.getElementById("pvcu");
+      let pvai = document.getElementById("pvai");
+      let pvbi = document.getElementById("pvbi");
+      let pvci = document.getElementById("pvci");
+      let pvp = document.getElementById("pvp");
+      pvau.textContent = "A相电压：" + this.value[0] + "V";
+      pvbu.textContent = "B相电压：" + this.value[1] + "V";
+      pvcu.textContent = "C相电压：" + this.value[2] + "V";
+      pvai.textContent = "A相电流：  " + this.value[3] + "A";
+      pvbi.textContent = "B相电流：  " + this.value[4] + "A";
+      pvci.textContent = "C相电流：  " + this.value[5] + "A";
+      pvp.textContent = "总有功： " + this.value[6] + "kW";
+    },
+    // 动态修改总接口数据
+    setAllDate() {
+      console.log(this.paramInfo.all);
+      this.value = [];
+      this.id = [];
+      for (let i = 0; i < this.paramInfo.all.length; i++) {
+        this.id.push(this.paramInfo.all[i].id);
+        this.value.push(this.paramInfo.all[i].value);
+      }
+      console.log(this.id);
+      console.log(this.value[0]);
+      // 绑定总接口并更新数据
       let allau = document.getElementById("allau");
       let allbu = document.getElementById("allbu");
       let allcu = document.getElementById("allcu");
       let allai = document.getElementById("allai");
       let allbi = document.getElementById("allbi");
       let allci = document.getElementById("allci");
-      console.log(this.list);
-      for (let i = 0; i < this.list.length; i++) {
-        this.id.push(this.list[i].id);
-        this.value.push(this.list[i].value);
-      }
-      console.log(this.id);
-      console.log(this.value[0]);
+      let allp = document.getElementById("allp");
       allau.textContent = "A相电压：" + this.value[0] + "V";
       allbu.textContent = "B相电压：" + this.value[1] + "V";
       allcu.textContent = "C相电压：" + this.value[2] + "V";
-      allai.textContent = "A相电流：  " + this.value[3] + "V";
-      allbi.textContent = "B相电流：  " + this.value[4] + "V";
-      allci.textContent = "C相电流：  " + this.value[5] + "V";
+      allai.textContent = "A相电流：  " + this.value[3] + "A";
+      allbi.textContent = "B相电流：  " + this.value[4] + "A";
+      allci.textContent = "C相电流：  " + this.value[5] + "A";
+      allp.textContent = "总有功： " + this.value[6] + "kW";
     },
+    // 设置断路器状态
+    setSquare() {
+      console.log(this.paramInfo.square);
+      let QF1 = document.getElementById("QF1");
+      let QF2 = document.getElementById("QF2");
+      let QF3 = document.getElementById("QF3");
+      let QF4 = document.getElementById("QF4");
+      let QF5 = document.getElementById("QF5");
+      let QF6 = document.getElementById("QF6");
+      let QF7 = document.getElementById("QF7");
+      let QF26 = document.getElementById("QF26");
+      let QF27 = document.getElementById("QF27");
+      let QF28 = document.getElementById("QF28");
+      let QF29 = document.getElementById("QF29");
+      let QF30 = document.getElementById("QF30");
+      let QF31 = document.getElementById("QF31");
+      let QF32 = document.getElementById("QF32");
+      let QF33 = document.getElementById("QF33");
+      let KM1 = document.getElementById("KM1");
+      let KM2 = document.getElementById("KM2");
+      let KM3 = document.getElementById("KM3");
+      let KM4 = document.getElementById("KM4");
+      let KM5 = document.getElementById("KM5");
+      for (let i = 0; i < this.paramInfo.square.length; i++) {
+        if (this.paramInfo.square[i].id === "QF1") {
+          this.setColor(QF1, this.paramInfo.square[i].value);
+        } else if (this.paramInfo.square[i].id === "QF2") {
+          this.setColor(QF2, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF3") {
+          this.setColor(QF3, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF4") {
+          this.setColor(QF4, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF5") {
+          this.setColor(QF5, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF6") {
+          this.setColor(QF6, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF7") {
+          this.setColor(QF7, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF26") {
+          this.setColor(QF26, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF27") {
+          this.setColor(QF27, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF28") {
+          this.setColor(QF28, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF29") {
+          this.setColor(QF29, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF30") {
+          this.setColor(QF30, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF31") {
+          this.setColor(QF31, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF32") {
+          this.setColor(QF32, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "QF33") {
+          this.setColor(QF33, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "KM1") {
+          this.setColor(KM1, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "KM2") {
+          this.setColor(KM2, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "KM3") {
+          this.setColor(KM3, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "KM4") {
+          this.setColor(KM4, this.paramInfo.square[i].value);
+        }else if (this.paramInfo.square[i].id === "KM5") {
+          this.setColor(KM5, this.paramInfo.square[i].value);
+        }
 
+      }
+    },
+    // 业务函数---------------------------------------
+    setColor(idData, valueData) {
+      console.log(valueData);
+      if (valueData === 0) {
+        idData.style.fill = "#00b54f";
+        idData.style.stroke = "#00b54f";
+      } else {
+        idData.style.fill = "#ff2a42";
+        idData.style.stroke = "#ff2a42";
+      }
+    },
     // 网络请求---------------------------------------
-
     getHomeMultidata() {
       getHomedata().then((res) => {
         // console.log(res);
-        this.list = res.energy.list;
+        // this.list = res.energy.list;
         // console.log(this.list);
-        this.setDate();
+        // 获取数据
+        this.paramInfo = new Powers(
+          res.energy.pvs,
+          res.energy.bty,
+          res.energy.wp,
+          res.energy.pv,
+          res.energy.all,
+          res.energy.square
+        );
+        // console.log(this.paramInfo);
+        // 调用函数更新数据
+        this.setPvsDate();
+        this.setBtyDate();
+        this.setWpDate();
+        this.setPvDate();
+        this.setAllDate();
+        this.setSquare();
       });
     },
   },
-  beforeDestory(){
+  beforeDestory() {
     // 关闭窗口清除定时器
-    clearInterval(this.timer)
-  }
+    clearInterval(this.timer);
+  },
 };
 </script>
 

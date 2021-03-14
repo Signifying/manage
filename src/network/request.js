@@ -1,5 +1,5 @@
 import axios from 'axios'
-
+axios.defaults.withCredentials=true
 export function request(config) {
   // 1.创建axios的实例
   const instance = axios.create({

@@ -5,8 +5,13 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import './assets/css/icon.css';
 // import './assets/icons';
+
+import * as echarts from 'echarts';
+Vue.prototype.$echarts = echarts;
+
 Vue.config.productionTip = false
 Vue.use(ElementUI);
+
 //使用钩子函数对路由进行权限跳转
 router.beforeEach((to, from, next) => {
   document.title = `${to.meta.title} | manage-system`;

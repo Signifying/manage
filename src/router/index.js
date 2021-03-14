@@ -26,17 +26,17 @@ export default new Router({
         //   meta: { title: '运行监控' }
         // },
         {
-          path: '/gridConnection',
+          path: '/gridconnection',
           component: () => import(/* webpackChunkName: "gridConnection" */ '../views/gridConnection/GridConnection.vue'),
           meta: { title: '微网并网点' }
         },
         {
-          path: '/windGenerator',
+          path: '/windgenerator',
           component: () => import(/* webpackChunkName: "windGenerator" */ '../views/windGenerator/WindGenerator.vue'),
           meta: { title: '风力发电' }
         },
         {
-          path: '/pvGenerator',
+          path: '/pvgenerator',
           component: () => import(/* webpackChunkName: "pvGenerator" */ '../views/pvGenerator/PvGenerator.vue'),
           meta: { title: '光伏发电' }
         },
@@ -46,22 +46,22 @@ export default new Router({
           meta: { title: '储能系统' }
         },
         {
-          path: '/loadSystem',
+          path: '/loadsystem',
           component: () => import(/* webpackChunkName: "loadSystem" */ '../views/loadSystem/LoadSystem.vue'),
           meta: { title: '负荷系统' }
         },
         {
-          path: '/windPrediction',
+          path: '/windprediction',
           component: () => import(/* webpackChunkName: "windPrediction" */ '../views/windPrediction/WindPrediction.vue'),
           meta: { title: '风电预测' }
         },
         {
-          path: '/pvPrediction',
+          path: '/pvprediction',
           component: () => import(/* webpackChunkName: "pvPrediction" */ '../views/pvPrediction/PvPrediction.vue'),
           meta: { title: '光伏预测' }
         },
         {
-          path: '/statisticAnalysis',
+          path: '/statisticanalysis',
           component: () => import(/* webpackChunkName: "statisticAnalysis" */ '../views/statisticAnalysis/StatisticAnalysis.vue'),
           meta: { title: '统计分析' }
         },

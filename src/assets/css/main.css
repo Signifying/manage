@@ -30,7 +30,7 @@ a {
     /* padding-bottom: 30px; */
     -webkit-transition: left .3s ease-in-out;
     transition: left .3s ease-in-out;
-    background-image: linear-gradient(to right,rgb(14,27,69),rgb(4,14,39)) ;
+    background-image: linear-gradient(to right, rgb(14, 27, 69), rgb(4, 14, 39));
 }
 
 .content {
@@ -170,8 +170,13 @@ a {
     margin-top: 20px;
 }
 
-/*markdown*/
+/* Structure  #ff2a42"*/
+.closed {
+    fill: #ff2a42;
+    stroke: #ff2a42;
+}
 
-.v-note-wrapper .v-note-panel {
-    min-height: 500px;
+.opened {
+    fill: #00b54f;
+    stroke: #00b54f;
 }

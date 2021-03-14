@@ -69,15 +69,15 @@ export default {
           title: "运行监控",
           subs: [
             {
-              index: "gridConnection",
+              index: "gridconnection",
               title: "微网并网点",
             },
             {
-              index: "windGenerator",
+              index: "windgenerator",
               title: "风力发电",
             },
             {
-              index: "pvGenerator",
+              index: "pvgenerator",
               title: "光伏发电",
             },
             {
@@ -85,7 +85,7 @@ export default {
               title: "储能系统",
             },
             {
-              index: "loadSystem",
+              index: "loadsystem",
               title: "负荷系统",
             },
           ],
@@ -96,11 +96,11 @@ export default {
           title: "风光预测",
           subs: [
             {
-              index: "windPrediction",
+              index: "windprediction",
               title: "风电预测",
             },
             {
-              index: "pvPrediction",
+              index: "pvprediction",
               title: "光伏预测",
             },
           ],
@@ -111,7 +111,7 @@ export default {
           title: "统计分析",
           subs: [
             {
-              index: "statisticAnalysis",
+              index: "statisticanalysis",
               title: "统计分析",
             },
           ],

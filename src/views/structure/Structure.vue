@@ -740,7 +740,7 @@
         />
         <line class="st7" x1="2162.8" y1="1145.2" x2="2162.8" y2="1365" />
         <!-- 光伏模拟器 pvs-->
-        <text class="pvs" transform="matrix(1 0 0 1 1071.8296 421.6807)">
+        <text  transform="matrix(1 0 0 1 1071.8296 421.6807)">
           <tspan id="pvsau" x="0" y="0" class="st0 st11 st12">
             A相电压： 0.00 V
           </tspan>
@@ -903,15 +903,15 @@ export default {
     // 设置数据函数---------------------------------------------
     // 动态修改光伏模拟器数据
     setPvsDate() {
-      console.log(this.paramInfo.pvs);
+      // console.log(this.paramInfo.pvs);
       this.value = [];
       this.id = [];
       for (let i = 0; i < this.paramInfo.pvs.length; i++) {
         this.id.push(this.paramInfo.pvs[i].id);
         this.value.push(this.paramInfo.pvs[i].value);
       }
-      console.log(this.id);
-      console.log(this.value[0]);
+      // console.log(this.id);
+      // console.log(this.value[0]);
       // 光伏模拟器 pvs allp
       let pvsau = document.getElementById("pvsau");
       let pvsbu = document.getElementById("pvsbu");
@@ -930,15 +930,15 @@ export default {
     },
     // 动态修改储能锂电池数据
     setBtyDate() {
-      console.log(this.paramInfo.bty);
+      // console.log(this.paramInfo.bty);
       this.value = [];
       this.id = [];
       for (let i = 0; i < this.paramInfo.bty.length; i++) {
         this.id.push(this.paramInfo.bty[i].id);
         this.value.push(this.paramInfo.bty[i].value);
       }
-      console.log(this.id);
-      console.log(this.value[0]);
+      // console.log(this.id);
+      // console.log(this.value[0]);
       // 储能锂电池 bty
       let btyau = document.getElementById("btyau");
       let btybu = document.getElementById("btybu");
@@ -957,15 +957,15 @@ export default {
     },
     // 动态修改双馈风机模拟器数据
     setWpDate() {
-      console.log(this.paramInfo.wp);
+      // console.log(this.paramInfo.wp);
       this.value = [];
       this.id = [];
       for (let i = 0; i < this.paramInfo.wp.length; i++) {
         this.id.push(this.paramInfo.wp[i].id);
         this.value.push(this.paramInfo.wp[i].value);
       }
-      console.log(this.id);
-      console.log(this.value[0]);
+      // console.log(this.id);
+      // console.log(this.value[0]);
       // 双馈风机模拟器 wp
       let wpau = document.getElementById("wpau");
       let wpbu = document.getElementById("wpbu");
@@ -984,15 +984,15 @@ export default {
     },
     // 动态修改光伏发电数据
     setPvDate() {
-      console.log(this.paramInfo.pv);
+      // console.log(this.paramInfo.pv);
       this.value = [];
       this.id = [];
       for (let i = 0; i < this.paramInfo.pv.length; i++) {
         this.id.push(this.paramInfo.pv[i].id);
         this.value.push(this.paramInfo.pv[i].value);
       }
-      console.log(this.id);
-      console.log(this.value[0]);
+      // console.log(this.id);
+      // console.log(this.value[0]);
       // 光伏发电 pv
       let pvau = document.getElementById("pvau");
       let pvbu = document.getElementById("pvbu");
@@ -1011,15 +1011,15 @@ export default {
     },
     // 动态修改总接口数据
     setAllDate() {
-      console.log(this.paramInfo.all);
+      // console.log(this.paramInfo.all);
       this.value = [];
       this.id = [];
       for (let i = 0; i < this.paramInfo.all.length; i++) {
         this.id.push(this.paramInfo.all[i].id);
         this.value.push(this.paramInfo.all[i].value);
       }
-      console.log(this.id);
-      console.log(this.value[0]);
+      // console.log(this.id);
+      // console.log(this.value[0]);
       // 绑定总接口并更新数据
       let allau = document.getElementById("allau");
       let allbu = document.getElementById("allbu");
@@ -1038,76 +1038,26 @@ export default {
     },
     // 设置断路器状态
     setSquare() {
-      console.log(this.paramInfo.square);
-      let QF1 = document.getElementById("QF1");
-      let QF2 = document.getElementById("QF2");
-      let QF3 = document.getElementById("QF3");
-      let QF4 = document.getElementById("QF4");
-      let QF5 = document.getElementById("QF5");
-      let QF6 = document.getElementById("QF6");
-      let QF7 = document.getElementById("QF7");
-      let QF26 = document.getElementById("QF26");
-      let QF27 = document.getElementById("QF27");
-      let QF28 = document.getElementById("QF28");
-      let QF29 = document.getElementById("QF29");
-      let QF30 = document.getElementById("QF30");
-      let QF31 = document.getElementById("QF31");
-      let QF32 = document.getElementById("QF32");
-      let QF33 = document.getElementById("QF33");
-      let KM1 = document.getElementById("KM1");
-      let KM2 = document.getElementById("KM2");
-      let KM3 = document.getElementById("KM3");
-      let KM4 = document.getElementById("KM4");
-      let KM5 = document.getElementById("KM5");
-      for (let i = 0; i < this.paramInfo.square.length; i++) {
-        if (this.paramInfo.square[i].id === "QF1") {
-          this.setColor(QF1, this.paramInfo.square[i].value);
-        } else if (this.paramInfo.square[i].id === "QF2") {
-          this.setColor(QF2, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF3") {
-          this.setColor(QF3, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF4") {
-          this.setColor(QF4, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF5") {
-          this.setColor(QF5, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF6") {
-          this.setColor(QF6, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF7") {
-          this.setColor(QF7, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF26") {
-          this.setColor(QF26, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF27") {
-          this.setColor(QF27, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF28") {
-          this.setColor(QF28, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF29") {
-          this.setColor(QF29, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF30") {
-          this.setColor(QF30, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF31") {
-          this.setColor(QF31, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF32") {
-          this.setColor(QF32, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "QF33") {
-          this.setColor(QF33, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "KM1") {
-          this.setColor(KM1, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "KM2") {
-          this.setColor(KM2, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "KM3") {
-          this.setColor(KM3, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "KM4") {
-          this.setColor(KM4, this.paramInfo.square[i].value);
-        }else if (this.paramInfo.square[i].id === "KM5") {
-          this.setColor(KM5, this.paramInfo.square[i].value);
-        }
+      var map = new Map();
+      var arr = new Array("QF1", "QF2", "QF3", "QF4", "QF5",
+      "QF6", "QF7", "QF26", "QF27", "QF28","QF29", "QF30", 
+      "QF31", "QF32", "QF33","KM1","KM2","KM3","KM4","KM5");
+      for (let i = 0; i < arr.length; i++) {
+        map.set(arr[i], document.getElementById(arr[i]));
+      }
 
+      for (let i = 0; i < this.paramInfo.square.length; i++) {
+        let elem = map.get(this.paramInfo.square[i].id);
+        if (elem != undefined) {
+          this.setColor(elem, this.paramInfo.square[i].value);
+        }
       }
     },
     // 业务函数---------------------------------------
     setColor(idData, valueData) {
-      console.log(valueData);
+      // console.log(valueData);
       if (valueData === 0) {
+        // idData.className = 'opened'
         idData.style.fill = "#00b54f";
         idData.style.stroke = "#00b54f";
       } else {
@@ -1150,6 +1100,15 @@ export default {
 
 
 <style type="text/css" scoped>
+.closed {
+    fill: #ff2a42;
+    stroke: #ff2a42;
+}
+
+.opened {
+    fill: #00b54f;
+    stroke: #00b54f;
+}
 .st0 {
   fill: #a4b4c4;
 }
@@ -1174,7 +1133,7 @@ export default {
 .st4 {
   fill: #00b54f;
   stroke: #00b54f;
-  stroke-width: 3;
+  stroke-width: 5;
   stroke-miterlimit: 10;
 }
 .st5 {
@@ -1196,8 +1155,8 @@ export default {
   stroke-miterlimit: 10;
 }
 .st8 {
-  fill: none;
-  stroke: #000000;
+  fill: #0e1b45;
+  stroke: #a4b4c4;
   stroke-miterlimit: 10;
 }
 .st9 {
@@ -1258,7 +1217,7 @@ export default {
   stroke-miterlimit: 10;
 }
 .st22 {
-  fill: #a4b4c4;
+  fill:  #0e1b45;
   stroke: #a4b4c4;
   stroke-miterlimit: 10;
 }
